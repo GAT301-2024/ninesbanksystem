@@ -6,7 +6,7 @@ if (!isset($_SESSION['role'])) {
     exit();
 }
 
-// Initialize session counter if not already set
+// Initialize session counter if not already set already
 if (!isset($_SESSION['counter'])) {
     $_SESSION['counter'] = 0; // Initialize counter
 }
